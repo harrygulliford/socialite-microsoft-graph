@@ -1,0 +1,50 @@
+{
+  "name": "harrygulliford/socialite-microsoft-graph",
+  "description": "",
+  "keywords": [
+    "harrygulliford",
+    "socialite-microsoft-graph"
+  ],
+  "homepage": "https://github.com/harrygulliford/socialite-microsoft-graph",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Harry Gulliford",
+      "email": "hello@harrygulliford.com",
+      "homepage": "https://www.harrygulliford.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "illuminate/support": "^6.0",
+    "laravel/socialite": "^4.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "HarryGulliford\\SocialiteMicrosoftGraph\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "HarryGulliford\\SocialiteMicrosoftGraph\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "HarryGulliford\\SocialiteMicrosoftGraph\\SocialiteMicrosoftGraphServiceProvider"
+      ]
+    }
+  }
+}
