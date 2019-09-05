@@ -90,8 +90,8 @@ class MicrosoftGraphProvider extends AbstractProvider implements ProviderInterfa
     }
 
     /**
-     * Returns the configured tenant that we're authenticating with, or common
-     * if one is not configured.
+     * The tenant globally unique identifier, used to scope sign-on activity to
+     * a singular organization or domain.
      *
      * @return string
      */
