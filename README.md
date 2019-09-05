@@ -21,7 +21,7 @@ Then add the service to your `config/services.php` file:
 'microsoft-graph' => [
     'client_id' => env('MS_GRAPH_KEY'),
     'client_secret' => env('MS_GRAPH_SECRET'),
-    'tenant_id' => env('MS_GRAPH_TENANT_ID'),
+    'tenant_id' => env('MS_GRAPH_TENANT_ID', 'common'),
     'redirect' => env('MS_GRAPH_REDIRECT_URL'),
 ],
 ```
