@@ -1,11 +1,12 @@
 # Microsoft Graph Provider for Laravel Socialite
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/harrygulliford/socialite-microsoft-graph.svg)](https://packagist.org/packages/harrygulliford/socialite-microsoft-graph)
-[![Total Downloads](https://img.shields.io/packagist/dt/harrygulliford/socialite-microsoft-graph.svg)](https://packagist.org/packages/harrygulliford/socialite-microsoft-graph)
+[![Latest Stable Version](https://poser.pugx.org/harrygulliford/socialite-microsoft-graph/v/stable)](https://packagist.org/packages/harrygulliford/socialite-microsoft-graph)
+[![Total Downloads](https://poser.pugx.org/harrygulliford/socialite-microsoft-graph/downloads)](https://packagist.org/packages/harrygulliford/socialite-microsoft-graph)
+[![License](https://poser.pugx.org/harrygulliford/socialite-microsoft-graph/license)](https://packagist.org/packages/harrygulliford/socialite-microsoft-graph)
 
 This package extends Laravel Socialite to give a convenient method of authenticating via the Microsoft Graph OAuth2 provider.
 
-Support for Laravel 6 + 5.8 and Socialite 4, using PHP 7.2+.
+Support for Laravel 6 + 5.8 and Socialite 4, using PHP 7.1.3+.
 
 ## Installation
 
