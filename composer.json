@@ -10,9 +10,6 @@
   "authors": [
     {
       "name": "Harry Gulliford",
-      "email": "hello@harrygulliford.com",
-      "homepage": "https://www.harrygulliford.com",
-      "role": "Developer"
     }
   ],
   "require": {
