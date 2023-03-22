@@ -1,35 +1,35 @@
 {
-  "name": "harrygulliford/socialite-microsoft-graph",
-  "description": "Microsoft Graph Provider for Laravel Socialite",
-  "keywords": [
-    "harrygulliford",
-    "socialite-microsoft-graph"
-  ],
-  "homepage": "https://github.com/harrygulliford/socialite-microsoft-graph",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Harry Gulliford"
+    "name": "harrygulliford/socialite-microsoft-graph",
+    "description": "Microsoft Graph Provider for Laravel Socialite",
+    "keywords": [
+        "harrygulliford",
+        "socialite-microsoft-graph"
+    ],
+    "homepage": "https://github.com/harrygulliford/socialite-microsoft-graph",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Harry Gulliford"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0",
+        "laravel/socialite": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HarryGulliford\\SocialiteMicrosoftGraph\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "HarryGulliford\\SocialiteMicrosoftGraph\\SocialiteMicrosoftGraphServiceProvider"
+            ]
+        }
     }
-  ],
-  "require": {
-    "php": "^7.3|^8.0",
-    "illuminate/support": "^6.0|^7.0|^8.0|^9.0",
-    "laravel/socialite": "^5.0"
-  },
-  "autoload": {
-    "psr-4": {
-      "HarryGulliford\\SocialiteMicrosoftGraph\\": "src"
-    }
-  },
-  "config": {
-    "sort-packages": true
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "HarryGulliford\\SocialiteMicrosoftGraph\\SocialiteMicrosoftGraphServiceProvider"
-      ]
-    }
-  }
 }
