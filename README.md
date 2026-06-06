@@ -6,7 +6,7 @@
 
 This package extends Laravel Socialite to give a convenient method of authenticating via the Microsoft Graph OAuth2 provider.
 
-Support for Laravel 6+ and Socialite 5+, using PHP 7.3+ & 8.0+.
+Support for Laravel 11, 12 and 13, Socialite 5+, and PHP 8.2+.
 
 ## Installation
 
@@ -35,7 +35,7 @@ You are able to use the provider in the same manner as a regular Socialite provi
 return Socialite::with('microsoft-graph')->redirect();
 ```
 
-For more information, please refer to the [Laravel Socialite documentation](https://laravel.com/docs/6.0/socialite).
+For more information, please refer to the [Laravel Socialite documentation](https://laravel.com/docs/socialite).
 
 ## License
 
